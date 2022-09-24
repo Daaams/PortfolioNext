@@ -9,3 +9,17 @@
     justify-content: space-around;
     width: 50%;
 }
+
+.link{
+    font-size: large;
+    border-bottom: 0px solid black;
+    transition-property: font-size, border-bottom;
+    transition: ease-in-out;
+    transition-duration: 200ms;
+}
+
+.link:hover{
+    font-size: x-large;
+    border-bottom: 4px solid blue;
+    
+}

@@ -7,11 +7,11 @@ function Navbar() {
                 <h1>Damien</h1>
             </div>
             <div>
-                <a>Home</a>
-                <a>About me</a>
-                <a>Technologies</a>
-                <a>Projects</a>
-                <a>Contact</a>
+                <a className={styles.link}>Home</a>
+                <a className={styles.link}>About me</a>
+                <a className={styles.link}>Technologies</a>
+                <a className={styles.link}>Projects</a>
+                <a className={styles.link}>Contact</a>
             </div>
         </nav>
     );
