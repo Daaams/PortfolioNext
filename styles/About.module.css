@@ -1,0 +1,32 @@
+
+.contentAbout{
+    width: 75%;
+    margin: auto;
+}
+
+.sections section{
+    margin-bottom: 5%; 
+}
+
+.desc{
+    display: flex;
+}
+.desc > p {
+    flex: 2;
+}
+
+.studies{
+    display: flex;
+}
+
+.studies > figure + p {
+    flex: 2;
+}
+
+.activities{
+    display: flex;
+}
+
+.activities > figure + p {
+    flex: 2;
+}
