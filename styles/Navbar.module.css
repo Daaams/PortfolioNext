@@ -1,25 +1,24 @@
 .navbar{
-    display: flex;
-    justify-content: space-between;
+    background-color: rgb(75, 75, 75);
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
-.navbar > div + div {
+.navbar > div {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 50%;
 }
 
 .link{
     font-size: large;
-    border-bottom: 0px solid black;
-    transition-property: font-size, border-bottom;
+    border-bottom: 2px solid white;
+    transition-property: color border-bottom;
     transition: ease-in-out;
     transition-duration: 200ms;
 }
 
 .link:hover{
-    font-size: x-large;
-    border-bottom: 4px solid blue;
-    
+    color: rgb(13, 158, 225);
+    border-bottom: 2px solid rgb(13, 158, 225);
 }
