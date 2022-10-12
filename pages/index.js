@@ -2,9 +2,16 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+/*
+ * 
+ *    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+ */
+
+
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Portfolio | Home</title>
         <meta name="description" content="Portfolio created by LEVRAULT Damien" />
@@ -12,18 +19,21 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <p className={styles.title}>Hi there ! I'm Damien</p>
-        <figure className={styles.me}>
-          <Image src={"/moi.jpg"} width ={300} height={350} alt="my picture" className={styles.myPicture}/>
-        </figure>
-        <div className={styles.myDesc}>
-          <p>
-            I am an IT student interested in web and mobile applications. I would like to make people's everyday life easier. 
-          </p>
-          <button className={styles.downloadCV}>
-            Download my CV
-          </button>
+        <div className={styles.me}>
+          <div className={styles.myDesc}>
+            <p className={styles.title}>I'm Damien</p>
+            <p>I am an IT student interested in web and mobile applications. I would like to make people's everyday life easier. </p>      
+          </div>
+          <figure  className={styles.myPicture}>
+            <Image src={"/moi.jpg"} width ={300} height={350} alt="my picture"/>
+          </figure>
         </div>
+        <div className={styles.cv}>
+          <p>Download my CV</p>
+          <p className={styles.downloadCV}>
+            <button>HERE</button>
+          </p>
+        </div> 
       </main>
     </div>
   )
