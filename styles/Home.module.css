@@ -3,9 +3,6 @@
 .main {
   min-height: 100vh;
   padding: 4rem 0;
-  display: grid;
-  grid-template-rows:0.5fr 1fr;
-  grid-template-columns: 1fr 2fr;
   margin-left: 10%;
 }
 
@@ -15,39 +12,84 @@
 
 @media (prefers-color-scheme: dark) {
   .title{
-    align-self: center;
-    font-size: 50px;
+    
+    text-transform: uppercase;
+    font-size: 105px;
+    font-weight: 800;
+    color: #efefef;
+    text-shadow: 
+      -1px 1px #919191,
+      -2px 2px #919191,
+      -3px 3px #919191,
+      -4px 4px #919191,
+      -5px 5px #919191,
+      -6px 6px #919191,
+      -7px 7px #919191,
+      -8px 8px #919191,
+      -9px 9px #919191,
+      -10px 10px 1px #919191
+    ;
   }
 
   .me{
-    grid-row: 1/span 3;
-    grid-column: 2/3;
-    align-self: center;
-    justify-self: center;
+    display: flex;
   }
 
   .myPicture{
-    border-radius: 40%;
+    flex: 1;
+    align-self: center;
   }
 
   .myDesc{
-    grid-column: 1/2;
-    grid-row: 2/3;
     font-size: 20px;
     color: rgb(123, 123, 123);
     display: flex;
+    flex: 2;
     flex-direction: column;
     justify-content: space-around;
   }
 
-  .myDesc>p{
+  .myDesc>p+p{
     font-size: 30px;
   }
   
   .downloadCV{
-    width: 50%;
-    height: 10%;
+    width: 200px;
+    height: 100px;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .downloadCV:hover{
+    animation: pulse 800ms infinite ease-out;
+  }
+
+  @keyframes pulse {
+    0%{
+      opacity: 1;
+    }
+    50%{
+      transform: scale(800ms);
+      opacity: 0;
+    }
+    to{
+      transform: scale(800ms);
+      opacity: 1;
+    }
+  }
+  .downloadCV>button{
+    width: 200px;
+    height: 100px;
     border: 3px solid white;
-    border-radius: 10%;
+    border-radius: 30%;
+  }
+  .cv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    font-size: x-large;
   }
 }

@@ -3,7 +3,8 @@
     justify-content: space-between;
     padding: 2rem 0;
     border-top: 1px solid #eaeaea;
-    /*background-color: rgb(75, 75, 75);*/
+    background-color: rgb(75, 75, 75);
+    font-size: large;
 }
 
 .footer div {

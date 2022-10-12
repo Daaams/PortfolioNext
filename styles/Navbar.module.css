@@ -1,7 +1,9 @@
 .navbar{
+    top: 0;
     background-color: rgb(75, 75, 75);
-    padding-top: 2%;
-    padding-bottom: 2%;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .navbar > div {
