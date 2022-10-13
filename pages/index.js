@@ -27,7 +27,7 @@ export default function Home() {
             <p>I am an IT student interested in web and mobile applications. I would like to make people's everyday life easier. </p>      
           </div>
           <figure  className={styles.myPicture}>
-            <Image src={"/moi2.png"} width ={600} height={550} alt="my picture"/>
+            <Image src={"/moi2.png"} width ={600} height={550} alt="my picture" />
           </figure>
         </div>
         <div className={styles.cv}>
@@ -36,7 +36,7 @@ export default function Home() {
           <ion-icon name="arrow-forward-outline"></ion-icon>
           <ion-icon name="arrow-forward-outline"></ion-icon>
           <p className={styles.downloadCV}>
-            <button>HERE</button>
+            <button style={{fontSize: "x-large"}}>HERE</button>
           </p>
         </div> 
       </main>
