@@ -36,15 +36,17 @@
   }
 
   .myPicture{
-    flex: 1;
-    align-self: center;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .myDesc{
     font-size: 20px;
     color: rgb(123, 123, 123);
     display: flex;
-    flex: 2;
+    flex: 1;
     flex-direction: column;
     justify-content: space-around;
   }
