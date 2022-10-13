@@ -8,7 +8,7 @@ function technologies() {
     return (
         <div>
             <Head>
-                <title>Portfolio | Technologies</title>
+                <title>Portfolio | Technologies </title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className={styles.main}>
@@ -23,7 +23,36 @@ function technologies() {
                             </Link>
                         </div>
                     </article>                   
-                    
+                    <article >
+                        <div className={styles.techno}>
+                            <figure className={styles.imgTechno}>
+                                <Image src={"/java.png"} width ={200} height={200} alt="java logo"/>
+                            </figure>
+                            <Link href={"https://www.java.com/en/"}>
+                                <a className={styles.technoText}>Java</a>
+                            </Link>
+                        </div>
+                    </article>    
+                    <article >
+                        <div className={styles.techno}>
+                            <figure className={styles.imgTechno}>
+                                <Image src={"/vmware.png"} width ={200} height={200} alt="VMware logo"/>
+                            </figure>
+                            <Link href={"https://www.vmware.com/"}>
+                                <a className={styles.technoText}>VMware</a>
+                            </Link>
+                        </div>
+                    </article>    
+                    <article >
+                        <div className={styles.techno}>
+                            <figure className={styles.imgTechno}>
+                                <Image src={"/sqlServer.png"} width ={200} height={200} alt="SQL Server logo"/>
+                            </figure>
+                            <Link href={"https://www.microsoft.com/en-us/sql-server/"}>
+                                <a className={styles.technoText}>SQL Server</a>
+                            </Link>
+                        </div>
+                    </article>    
                 </div>
             </main>
         </div>
