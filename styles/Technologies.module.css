@@ -1,0 +1,42 @@
+.main {
+    min-height: 100vh;
+    padding: 4rem 0;
+    margin-left: 10%;
+  }
+
+.technologies{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.techno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.technoText{
+    position: absolute;
+    opacity: 0;
+    font-size: large;
+    text-decoration: underline;
+}
+
+.technoText:hover{
+    cursor: pointer;
+}
+
+.techno .technoText{
+    position: absolute;
+    opacity: 0;
+    transition: .5s ease;
+}
+.techno:hover .imgTechno{
+    filter: blur(4px);
+}
+.techno:hover .technoText{
+    opacity: 1;
+}
+
