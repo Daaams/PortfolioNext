@@ -14,19 +14,19 @@ function about() {
             <main>
                 <h1>Why not knowing more about me ?</h1>
                 <div className={styles.sections}>
-                    <section className={styles.desc}>
+                    <article className={styles.desc}>
                         <p>lorem</p>
                         <figure>
                             <Image src={"/moi.jpg"} width ={300} height={350} alt="my picture"/>
                         </figure>
-                    </section>
-                    <section className={styles.studies}>
+                    </article>
+                    <article className={styles.studies}>
                         <figure>
                             <Image src={"/iut.jpg"} width ={400} height={350} alt="iut of Bordeaux"/>
                         </figure>
                         <p>lorem</p>
-                    </section>
-                    <section className={styles.activities}>
+                    </article>
+                    <article className={styles.activities}>
                         <figure>
                             <Image src={"/squash.jpg"} width ={300} height={350} alt="squash sport"/>
                         </figure>
@@ -34,7 +34,7 @@ function about() {
                         <figure>
                             <Image src={"/moi.jpg"} width ={300} height={350} alt="my picture" className={styles.myPicture}/>
                         </figure>
-                    </section>
+                    </article>
                 </div>
             </main>
             
