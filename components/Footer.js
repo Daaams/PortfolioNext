@@ -4,7 +4,7 @@ function Footer() {
     return (
         <footer className={styles.footer}>
             <div>
-                logo copyright
+                &#169; Copyright
             </div>
             <div>
                 Powered by Damien LEVRAULT
