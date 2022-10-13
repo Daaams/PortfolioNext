@@ -1,13 +1,13 @@
 .main {
     min-height: 100vh;
-    padding: 4rem 0;
-    margin-left: 10%;
+    padding: 6rem 0;
+    margin: 0% 15%;
   }
 
 .technologies{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 
 .techno{
@@ -20,7 +20,7 @@
 .technoText{
     position: absolute;
     opacity: 0;
-    font-size: large;
+    font-size: 20px;
     text-decoration: underline;
 }
 
@@ -34,9 +34,11 @@
     transition: .5s ease;
 }
 .techno:hover .imgTechno{
-    filter: blur(4px);
+    filter: blur(10px);
 }
 .techno:hover .technoText{
     opacity: 1;
+    font-size: 55px;
+    color: #FAFBFF;
 }
 

@@ -12,6 +12,9 @@ function technologies() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className={styles.main}>
+                <h1 style={{margin: "5rem 0rem"}}>
+                    Here are some technologies I use to work with !
+                </h1>
                 <div className={styles.technologies}>
                     <article >
                         <div className={styles.techno}>
@@ -26,7 +29,7 @@ function technologies() {
                     <article >
                         <div className={styles.techno}>
                             <figure className={styles.imgTechno}>
-                                <Image src={"/java.png"} width ={200} height={200} alt="java logo"/>
+                                <Image src={"/java.png"} width ={250} height={200} alt="java logo"/>
                             </figure>
                             <Link href={"https://www.java.com/en/"}>
                                 <a className={styles.technoText}>Java</a>
@@ -36,7 +39,7 @@ function technologies() {
                     <article >
                         <div className={styles.techno}>
                             <figure className={styles.imgTechno}>
-                                <Image src={"/vmware.png"} width ={200} height={200} alt="VMware logo"/>
+                                <Image src={"/vmware2.png"} width ={180} height={180} alt="VMware logo"/>
                             </figure>
                             <Link href={"https://www.vmware.com/"}>
                                 <a className={styles.technoText}>VMware</a>
@@ -52,7 +55,27 @@ function technologies() {
                                 <a className={styles.technoText}>SQL Server</a>
                             </Link>
                         </div>
-                    </article>    
+                    </article>  
+                    <article >
+                        <div className={styles.techno}>
+                            <figure className={styles.imgTechno}>
+                                <Image src={"/Next.js.png"} width ={220} height={170} alt="NextJs logo"/>
+                            </figure>
+                            <Link href={"https://nextjs.org/"}>
+                                <a className={styles.technoText}>NextJs</a>
+                            </Link>
+                        </div>
+                    </article> 
+                    <article >
+                        <div className={styles.techno}>
+                            <figure className={styles.imgTechno}>
+                                <Image src={"/Csharp.png"} width ={200} height={200} alt="C# logo"/>
+                            </figure>
+                            <Link href={"https://learn.microsoft.com/en-us/dotnet/csharp/"}>
+                                <a className={styles.technoText}>C#</a>
+                            </Link>
+                        </div>
+                    </article>  
                 </div>
             </main>
         </div>
