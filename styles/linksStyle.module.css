@@ -1,11 +1,48 @@
 .link{
+    color: white;
     border-bottom: 2px solid white;
     transition-property: color border-bottom;
     transition: ease-in-out;
     transition-duration: 200ms;
 }
 
-.link:hover{
-    color: rgb(13, 158, 225);
-    border-bottom: 2px solid rgb(13, 158, 225);
+.linkBlack{
+    color: black;
+    border-bottom: 2px solid black;
+    transition-property: color border-bottom;
+    transition: ease-in-out;
+    transition-duration: 200ms;
+}
+
+.linkIcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    transition-property: color border-bottom;
+    transition: ease-in-out;
+    transition-duration: 200ms;
+}
+
+.linkIconBlack{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    transition-property: color border-bottom;
+    transition: ease-in-out;
+    transition-duration: 200ms;
+}
+
+.linkIcon:hover, .linkIconBlack:hover{
+    color: #65AFFF;
+}
+
+.linkCards{
+    border-bottom: 2px solid black;
+}
+
+.link:hover, .linkBlack:hover{
+    color: #65AFFF;
+    border-bottom: 2px solid #65AFFF;
 }

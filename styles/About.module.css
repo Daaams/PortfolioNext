@@ -1,37 +1,7 @@
-.main {
+.contentAbout{
     min-height: 100vh;
     padding: 6rem 0;
-    margin-left: 10%;
-  }
-  
-.contentAbout{
-    width: 60%;
-    margin: auto;
-}
-
-.sections section{
-    margin-bottom: 5%; 
-}
-
-.desc{
+    margin: 0% 15%;
     display: flex;
-}
-.desc > p {
-    flex: 2;
-}
-
-.studies{
-    display: flex;
-}
-
-.studies > figure + p {
-    flex: 2;
-}
-
-.activities{
-    display: flex;
-}
-
-.activities > figure + p {
-    flex: 2;
+    align-items: center;
 }

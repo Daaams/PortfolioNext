@@ -5,6 +5,12 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Nunito Sans', sans-serif;
+  /*background-color: #ECFFF8;*/
+  background-color: #f3f7e8;
+}
+
+body {
+  scroll-behavior: smooth;
 }
 
 a {
@@ -16,12 +22,3 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background-color: rgb(22, 22, 22);
-  }
-}

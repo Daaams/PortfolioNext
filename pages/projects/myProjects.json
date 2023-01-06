@@ -1,0 +1,95 @@
+{
+  "projects" : [
+    {
+      "id" : "1",
+      "title": "Pong",
+      "projectRepoURL": "/",
+      "Date": "October 2021",
+      "points": [
+        "Algorithm", "Comment a code", "OOP understanding", "Graphic elements disposition"
+      ],
+      "technologies": [
+        "4"
+      ],
+      "photo":""
+    },
+    {
+      "id" : "2",
+      "title": "Lowatem",
+      "projectRepoURL": "",
+      "Date": "Novemeber 2021",
+      "points": [
+        "Read and understand an existing code", "Algoritm", "Upgrade an existing code"
+      ],
+      "technologies": [
+        "4"
+      ],
+      "photo":""
+    },
+    {
+      "id" : "3",
+      "title": "Lowatem AI",
+      "projectRepoURL": "",
+      "Date": "December 2021",
+      "points": [
+        "Team work skills practice", "Upgrade an existing code", "Algorithm"
+      ],
+      "technologies": [
+        "4"
+      ],
+      "photo":""
+    },
+    {
+      "id" : "4",
+      "title": "Static web site creation",
+      "projectRepoURL": "",
+      "Date": "December 2021",
+      "points": [
+        "Team work skills practice", "Imagigine and build a responsive website"
+      ],
+      "technologies": [
+        "5","HTML", "CSS"
+      ],
+      "photo":""
+    },
+    {
+      "id" : "5",
+      "title": "Portfolio",
+      "projectRepoURL": "",
+      "Date": "Febuary 2022",
+      "points": [
+        "Design layouts", "Build a project", "Use of GIT"
+      ],
+      "technologies": [
+        "5","HTML", "CSS"
+      ],
+      "photo":""
+    },
+    {
+      "id" : "6",
+      "title": "Database creation",
+      "projectRepoURL": "",
+      "Date": "December 2021",
+      "points": [
+        "Team work skills practice", "Design layouts", "Create a database"
+      ],
+      "technologies": [
+        "3", "SQL Server", "Win'Design"
+      ],
+      "photo":""
+    },
+    {
+      "id" : "7",
+      "title": "HTML presentation handler",
+      "projectRepoURL": "",
+      "Date": "Novemeber 2021",
+      "points": [
+        "Team work skills practice", "Linux command line usage"
+      ],
+      "technologies": [
+        "6","5"
+      ],
+      "photo":""
+    }
+  ]
+}
