@@ -11,6 +11,7 @@ export default function site(){
       <About/>
       <Technologies/>
       <Projects/>
+      <Contact/>
     </>
   );
 }

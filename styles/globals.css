@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight&family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&family=Inter+Tight&family=Nunito+Sans&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 html,
 body {
@@ -7,10 +15,8 @@ body {
   font-family: 'Nunito Sans', sans-serif;
   /*background-color: #ECFFF8;*/
   background-color: #f3f7e8;
-}
-
-body {
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 a {
@@ -22,3 +28,12 @@ a {
   box-sizing: border-box;
 }
 
+section{
+  padding-top: 6%;
+}
+
+@media (max-width: 768px) { 
+  section{
+    padding-top: 15%;
+  }
+}

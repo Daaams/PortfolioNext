@@ -15,7 +15,7 @@
         {
             "id": "3",
             "title": "SQL",
-            "imageURL": "/sqlServer.png",
+            "imageURL": "/dataBase.png",
             "URL": "https://www.microsoft.com/en-us/sql-server/"
         },
         {
@@ -27,19 +27,25 @@
         {
             "id": "5",
             "title": "Web",
-            "imageURL": "/java.png",
+            "imageURL": "/web.png",
             "URL": "https://developer.mozilla.org/en-US/"
         },
         {
             "id": "6",
-            "title": "Bash",
-            "imageURL": "/java.png",
+            "title": "Shell",
+            "imageURL": "/shell.png",
             "URL": "https://doc.ubuntu-fr.org/bash"
         },
         {
             "id": "7",
             "title" : "NextJs",
             "imageURL" : "/Next.js.png",
+            "URL" : "https://nextjs.org/"
+        },
+        {
+            "id": "8",
+            "title" : "Visual Basic",
+            "imageURL" : "/VBNET.png",
             "URL" : "https://nextjs.org/"
         }
     ]
