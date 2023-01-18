@@ -11,7 +11,7 @@
       "technologies": [
         "5", "7", "Figma"
       ],
-      "photo":"",
+      "photo":"/projects/Portfolio2.png",
       "description":"The main goals of this project was to discover an unknown technologie (NextJs) and to remake and update the first version of my portfolio."
     },
     {
@@ -25,7 +25,7 @@
       "technologies": [
         "5", "GIT", "3", "PHP", "HTML", "Tailwind"
       ],
-      "photo":"/java.png",
+      "photo":"/projects/Flouflix.png",
       "description": "A shows database has been given to this project. Given that database, we made with my team of 6 students a films / series web application using Symfony."
     },
     {
@@ -40,7 +40,7 @@
         "8", "XAML"
       ],
       "photo":"",
-      "description":"In this project, I retreive EMG data from"
+      "description":"In this project, I retreived EMG data from a MYO armband. After having collected this data, I formated and processed it. I used it for sign detection in order to controll drones with gestures."
     },
     {
       "id" : "13",
@@ -53,7 +53,7 @@
       "technologies": [
         "4", "GIT"
       ],
-      "photo":"",
+      "photo":"/projects/BloomFilter.png",
       "description":"This project merge algorithm, UML and tests. I learn How to bench time execution of functions throught the Java librairy JMH. Some elements search tests have been executed on three well known data strucures : Arrays, LinkedLists and ArrayLists."
     },
     {
@@ -67,7 +67,7 @@
       "technologies": [
         "1", "GIT"
       ],
-      "photo":"",
+      "photo":"/projects/RSA.png",
       "description": "This project was an introduction with a Python script of how data are transmitted from one person to another one in a secure and encrypte way."
     },
     {
@@ -81,7 +81,7 @@
       "technologies": [
         "5", "7", "GIT", "CSS"
       ],
-      "photo":"",
+      "photo":"/projects/Stopwatch.png",
       "description":"Stopwatch is a project in which I began to learn javascript programation and NextJs technology : Modules, components creation... . I realised a simple stopwatch sytled with pure CSS."
     },
     {
@@ -95,13 +95,13 @@
       "technologies": [
         "1", "GIT"
       ],
-      "photo":"",
+      "photo":"/projects/SSLL.png",
       "description":"I participated with my team to the French Robocup Junior in Bordeaux where we finished at the 3rd place. We also participated to the European Robocup Junior that took place in Guimaraes Portugal. We won the competiton. We code a little AI that played against oponents' AI. Here is the source code of the module we used : 'mettre le lien ici' "
     },
     {
       "id" : "10",
       "title": "Café Pierre",
-      "projectRepoURL": "https://github.com/Moumouuu/SAE4-5",
+      "projectRepoURL": "",
       "Date": "June 2022",
       "points": [
         "Team work skills practice", "Management", "Data visualisation"
@@ -109,7 +109,7 @@
       "technologies": [
         "1", "3", "GIT"
       ],
-      "photo":"",
+      "photo":"/projects/CafePierre.png",
       "description":"We were a team of four working on the Café Pierre project. In this project, we retrieved data from online datasets, removed useless data, created a database and requested it in order to create a dashboard. We used Dash librairy to make the dashboard, matplotlib and plotly express to draw different charts for data visualisation"
     },
     {
@@ -123,7 +123,7 @@
       "technologies": [
         "4", "GIT"
       ],
-      "photo":"",
+      "photo":"/projects/rentals.png",
       "description":"Here, I used my UML skills to define my Java application architecture. I implemented client's needs all project long. This project is a console application. The application user is interacting directly in the console."
     },
     {
@@ -151,7 +151,7 @@
       "technologies": [
         "5","HTML", "CSS"
       ],
-      "photo":"",
+      "photo":"/projects/Portfolio.png",
       "description":"The goal here was to group the first projects done in the first semester in a static website. I used the skills in HTML and CSS acquired."
     },
     {
@@ -165,7 +165,7 @@
       "technologies": [
         "4"
       ],
-      "photo":"",
+      "photo":"/projects/Lowatem.png",
       "description":"I worked in pair. This project is the continuation of Lowatem. We implemented two little AI. Every night, our AI chosen fought against other groups AI."
     },
     {
@@ -179,7 +179,7 @@
       "technologies": [
         "5","HTML", "CSS"
       ],
-      "photo":"",
+      "photo":"/projects/IEG_Web.png",
       "description":"After a manegement and communication work, I created the corresponding static and responsive web site. It was my first one."
     },
     {
@@ -199,7 +199,7 @@
     {
       "id" : "7",
       "title": "HTML presentation handler",
-      "projectRepoURL": "https://github.com/Daaams/Shell_HTML",
+      "projectRepoURL": "",
       "Date": "Novemeber 2021",
       "points": [
         "Team work skills practice", "Linux command line usage"
@@ -207,7 +207,7 @@
       "technologies": [
         "6","5"
       ],
-      "photo":"",
+      "photo":"/projects/shellHTML.png",
       "description":"I strated this little project with given documents : storyboard, audio, pdf. The main goal was to create a bash script that use these documents and generate with it a static html pages."
     },
     {
@@ -221,7 +221,7 @@
       "technologies": [
         "4"
       ],
-      "photo":"",
+      "photo":"/projects/Lowatem.png",
       "description":"Lowatem is a war board game. With Lowatem project, I understood better POO and improved my programming skills in Java. I wrote unit tests, I learned to be more familiar with an existing code. The goal of this project was to implement rules of Lowatem "
     },
     {
@@ -235,7 +235,7 @@
       "technologies": [
         "4"
       ],
-      "photo":"",
+      "photo":"/projects/Pong.png",
       "description":"Pong is a reproduction of the famous arcade implemented with Processing. Pong was one of my first experiences with POO. I disposed graphic elements on the sreen"
     }
   ]
