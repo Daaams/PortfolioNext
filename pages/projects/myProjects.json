@@ -3,7 +3,7 @@
     {
       "id" : "8",
       "title": "Portfolio V2",
-      "projectRepoURL": "",
+      "projectRepoURL": "https://github.com/Daaams/PortfolioNext",
       "Date": "January 2023",
       "points": [
         "Self learning", "Design layouts"
@@ -59,7 +59,7 @@
     {
       "id" : "14",
       "title": "Little RSA",
-      "projectRepoURL": "",
+      "projectRepoURL": "https://github.com/Daaams/Mini-RSA",
       "Date": "Novemeber 2022",
       "points": [
         "Team work skills practice", "OOP", "Algorithm","Cryptography understanding"
@@ -73,7 +73,7 @@
     {
       "id" : "16",
       "title": "Stopwatch",
-      "projectRepoURL": "",
+      "projectRepoURL": "https://github.com/Daaams/Minuteur",
       "Date": "October 2022",
       "points": [
         "Modules practicing", "Documentation reading"
@@ -87,7 +87,7 @@
     {
       "id" : "17",
       "title": "Robocup SSL Light",
-      "projectRepoURL": "",
+      "projectRepoURL": "https://github.com/robot-soccer-kit/robot-soccer-kit",
       "Date": "June 2022",
       "points": [
         "API Use", "France competition", "European competition"
@@ -101,7 +101,7 @@
     {
       "id" : "10",
       "title": "Café Pierre",
-      "projectRepoURL": "",
+      "projectRepoURL": "https://github.com/Moumouuu/SAE4-5",
       "Date": "June 2022",
       "points": [
         "Team work skills practice", "Management", "Data visualisation"
@@ -115,7 +115,7 @@
     {
       "id" : "15",
       "title": "Occasional touristic rentals",
-      "projectRepoURL": "",
+      "projectRepoURL": "https://github.com/Daaams/rentals/",
       "Date": "May 2022",
       "points": [
         "Team work skills practice", "OOP", "Algorithm", "UML"
@@ -143,7 +143,7 @@
     {
       "id" : "5",
       "title": "Portfolio",
-      "projectRepoURL": "",
+      "projectRepoURL": "https://github.com/Daaams/Portfolio",
       "Date": "Febuary 2022",
       "points": [
         "Design layouts and models", "Build a project", "Use of GIT"
@@ -171,7 +171,7 @@
     {
       "id" : "4",
       "title": "Static web site creation",
-      "projectRepoURL": "",
+      "projectRepoURL": "https://github.com/Daaams/IEG_web",
       "Date": "December 2021",
       "points": [
         "Team work skills practice", "Imagigine and build a responsive website"
@@ -199,7 +199,7 @@
     {
       "id" : "7",
       "title": "HTML presentation handler",
-      "projectRepoURL": "",
+      "projectRepoURL": "https://github.com/Daaams/Shell_HTML",
       "Date": "Novemeber 2021",
       "points": [
         "Team work skills practice", "Linux command line usage"
@@ -227,7 +227,7 @@
     {
       "id" : "1",
       "title": "Pong",
-      "projectRepoURL": "/",
+      "projectRepoURL": "",
       "Date": "October 2021",
       "points": [
         "Algorithm", "Comment a code", "OOP understanding", "Graphic elements disposition"
