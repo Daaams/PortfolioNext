@@ -17,7 +17,7 @@ export default function Home() {
           </figure>
           <div className="flex flex-1 flex-col">
             <p className="uppercase mb-6 font-extrabold text-6xl md:text-9xl text-[#2541B2]" >
-              I'm Damien
+              I&apos;m Damien
             </p>
             <p className="text-lg md:text-4xl mb-6 text-[#65AFFF]">
               I am a French IT student interseted in Web and Mobile applications.

@@ -92,10 +92,17 @@ export default function ProjectFromId( {idProjet} ) {
                                     </ul>
                                 </div>
                             </div>
-                            <p className="mt-[5%] md:text-2xl text-white"> Project repository : 
                             {project.projectRepoURL != "" && 
-                            <Link href={project.projectRepoURL}><a className="md:bg-transparent md:p-0 border-b border-b-black ease-in-out duration-200 hover:text-[#65AFFF] hover:border-b-[#65AFFF] text-lg" aria-current="page">{project.projectRepoURL}</a></Link> 
-                        }</p>
+
+                            <p className="mt-[5%] md:text-2xl text-white"> Project repository : 
+                            <Link href={project.projectRepoURL}><a className="md:bg-transparent md:p-0 border-b border-b-white ease-in-out duration-200 hover:text-[#65AFFF] hover:border-b-[#65AFFF] md:text-2xl ml-5" aria-current="page">{project.projectRepoURL}</a></Link>
+                            </p>
+                            }
+                            {
+                            project.projectRepoURL == "" && 
+                            <p className="mt-[5%] md:text-2xl text-white"> Project repository : No repository available</p>
+                            }
+                            
                         </div>
                     </div>
                     <br></br>
