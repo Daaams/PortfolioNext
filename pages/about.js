@@ -1,45 +1,22 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-import styles from '../styles/About.module.css'
-import stylesLink from '../styles/linksStyle.module.css'
-
-function about() {
+function About() {
     return (
-        <div className={styles.contentAbout}>
-            <Head>
-                <title>Portfolio | About</title>
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
-            <main>
-                <h1>Why not knowing more about me ?</h1>
-                <div className={styles.sections}>
-                    <article className={styles.desc}>
-                        <p>lorem</p>
-                        <figure>
-                            <Image src={"/moi.jpg"} width ={300} height={350} alt="my picture"/>
-                        </figure>
-                    </article>
-                    <article className={styles.studies}>
-                        <figure>
-                            <Image src={"/iut.jpg"} width ={400} height={350} alt="iut of Bordeaux"/>
-                        </figure>
-                        <p>lorem</p>
-                    </article>
-                    <article className={styles.activities}>
-                        <figure>
-                            <Image src={"/squash.jpg"} width ={300} height={350} alt="squash sport"/>
-                        </figure>
-                        <p><Link href={'https://en.wikipedia.org/wiki/Squash_(sport)'}><a className={stylesLink.link}>See the rules</a></Link></p>
-                        <figure>
-                            <Image src={"/moi.jpg"} width ={300} height={350} alt="my picture" className={styles.myPicture}/>
-                        </figure>
-                    </article>
+        <div>
+            <section className="md:px-24" id='about'>
+                <div className="bg-[#2541B2] rounded-xl p-6 m-5 md:m-0">
+                    <h1 className='text-3xl md:text-6xl text-[#65AFFF] ml-10'>About</h1>
+                    <div className="mt-[3%] pb-[2%] mx-5 md:text-2xl text-white">
+                        <p>
+                            I aim to make the every day life of people around me easier.
+                            I would like to be able to have informations,  knowledges that I am looking for at my fingertips. Don't you ? The knowledge transmission with simplicity and in a few clicks is one of my priorities.
+                            I am a student in the 2nd year of BUT Informatique at the University of Bordeaux, Gradignan site. I had the opportunity to develop computer skills.
+                            I am interested in the development of web and mobile applications on the backend side.
+                        </p>
+                    </div>
                 </div>
-            </main>
-            
+            </section>
+
         </div>
     );
 }
 
-export default about;
+export default About;

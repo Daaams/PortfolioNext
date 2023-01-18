@@ -1,0 +1,242 @@
+{
+  "projects" : [
+    {
+      "id" : "8",
+      "title": "Portfolio V2",
+      "projectRepoURL": "",
+      "Date": "January 2023",
+      "points": [
+        "Self learning", "Design layouts"
+      ],
+      "technologies": [
+        "5", "7", "Figma"
+      ],
+      "photo":"",
+      "description":"The main goals of this project was to discover an unknown technologie (NextJs) and to remake and update the first version of my portfolio."
+    },
+    {
+      "id" : "9",
+      "title": "Flouflix",
+      "projectRepoURL": "",
+      "Date": "January 2023",
+      "points": [
+        "Team work skills practice", "Linux command line usage", "Git", "Scrum management", "Symfony"
+      ],
+      "technologies": [
+        "5", "GIT", "3", "PHP", "HTML", "Tailwind"
+      ],
+      "photo":"/java.png",
+      "description": "A shows database has been given to this project. Given that database, we made with my team of 6 students a films / series web application using Symfony."
+    },
+    {
+      "id" : "12",
+      "title": "Drones",
+      "projectRepoURL": "",
+      "Date": "November 2021 - December 2022",
+      "points": [
+        "IOT", "OOP", "Big Data", "Data processing"
+      ],
+      "technologies": [
+        "8", "XAML"
+      ],
+      "photo":"",
+      "description":"In this project, I retreive EMG data from"
+    },
+    {
+      "id" : "13",
+      "title": "Bloom filter",
+      "projectRepoURL": "https://github.com/Daaams/Bloomfilter",
+      "Date": "Decembre 2022",
+      "points": [
+        "OOP", "GIT", "Benchmarking", "UML"
+      ],
+      "technologies": [
+        "4", "GIT"
+      ],
+      "photo":"",
+      "description":"This project merge algorithm, UML and tests. I learn How to bench time execution of functions throught the Java librairy JMH. Some elements search tests have been executed on three well known data strucures : Arrays, LinkedLists and ArrayLists."
+    },
+    {
+      "id" : "14",
+      "title": "Little RSA",
+      "projectRepoURL": "",
+      "Date": "Novemeber 2022",
+      "points": [
+        "Team work skills practice", "OOP", "Algorithm","Cryptography understanding"
+      ],
+      "technologies": [
+        "1", "GIT"
+      ],
+      "photo":"",
+      "description": "This project was an introduction with a Python script of how data are transmitted from one person to another one in a secure and encrypte way."
+    },
+    {
+      "id" : "16",
+      "title": "Stopwatch",
+      "projectRepoURL": "",
+      "Date": "October 2022",
+      "points": [
+        "Modules practicing", "Documentation reading"
+      ],
+      "technologies": [
+        "5", "7", "GIT", "CSS"
+      ],
+      "photo":"",
+      "description":"Stopwatch is a project in which I began to learn javascript programation and NextJs technology : Modules, components creation... . I realised a simple stopwatch sytled with pure CSS."
+    },
+    {
+      "id" : "17",
+      "title": "Robocup SSL Light",
+      "projectRepoURL": "",
+      "Date": "June 2022",
+      "points": [
+        "API Use", "France competition", "European competition"
+      ],
+      "technologies": [
+        "1", "GIT"
+      ],
+      "photo":"",
+      "description":"I participated with my team to the French Robocup Junior in Bordeaux where we finished at the 3rd place. We also participated to the European Robocup Junior that took place in Guimaraes Portugal. We won the competiton. We code a little AI that played against oponents' AI. Here is the source code of the module we used : 'mettre le lien ici' "
+    },
+    {
+      "id" : "10",
+      "title": "Café Pierre",
+      "projectRepoURL": "",
+      "Date": "June 2022",
+      "points": [
+        "Team work skills practice", "Management", "Data visualisation"
+      ],
+      "technologies": [
+        "1", "3", "GIT"
+      ],
+      "photo":"",
+      "description":"We were a team of four working on the Café Pierre project. In this project, we retrieved data from online datasets, removed useless data, created a database and requested it in order to create a dashboard. We used Dash librairy to make the dashboard, matplotlib and plotly express to draw different charts for data visualisation"
+    },
+    {
+      "id" : "15",
+      "title": "Occasional touristic rentals",
+      "projectRepoURL": "",
+      "Date": "May 2022",
+      "points": [
+        "Team work skills practice", "OOP", "Algorithm", "UML"
+      ],
+      "technologies": [
+        "4", "GIT"
+      ],
+      "photo":"",
+      "description":"Here, I used my UML skills to define my Java application architecture. I implemented client's needs all project long. This project is a console application. The application user is interacting directly in the console."
+    },
+    {
+      "id" : "11",
+      "title": "6 qui prend",
+      "projectRepoURL": "test",
+      "Date": "April 2022",
+      "points": [
+        "Team work skills practice", "OOP", "Design layouts and models"
+      ],
+      "technologies": [
+        "2"
+      ],
+      "photo":"",
+      "description":"This project is more about design and layouts. After designing the application models, I reproduced the application layout with c# tools. I finished implementing rules in order to have a functionnal game."
+    },
+    {
+      "id" : "5",
+      "title": "Portfolio",
+      "projectRepoURL": "",
+      "Date": "Febuary 2022",
+      "points": [
+        "Design layouts and models", "Build a project", "Use of GIT"
+      ],
+      "technologies": [
+        "5","HTML", "CSS"
+      ],
+      "photo":"",
+      "description":"The goal here was to group the first projects done in the first semester in a static website. I used the skills in HTML and CSS acquired."
+    },
+    {
+      "id" : "3",
+      "title": "Lowatem AI",
+      "projectRepoURL": "",
+      "Date": "December 2021",
+      "points": [
+        "Team work skills practice", "Upgrade an existing code", "Algorithm"
+      ],
+      "technologies": [
+        "4"
+      ],
+      "photo":"",
+      "description":"I worked in pair. This project is the continuation of Lowatem. We implemented two little AI. Every night, our AI chosen fought against other groups AI."
+    },
+    {
+      "id" : "4",
+      "title": "Static web site creation",
+      "projectRepoURL": "",
+      "Date": "December 2021",
+      "points": [
+        "Team work skills practice", "Imagigine and build a responsive website"
+      ],
+      "technologies": [
+        "5","HTML", "CSS"
+      ],
+      "photo":"",
+      "description":"After a manegement and communication work, I created the corresponding static and responsive web site. It was my first one."
+    },
+    {
+      "id" : "6",
+      "title": "Database creation",
+      "projectRepoURL": "",
+      "Date": "December 2021",
+      "points": [
+        "Team work skills practice", "Design layouts and models", "Create a database"
+      ],
+      "technologies": [
+        "3", "SQL Server", "Win'Design"
+      ],
+      "photo":"",
+      "description":"I analised the subject of the project then I reproduce the database creation process. I used all knowledges I have learned during the semester 1 : MCD, MLD, filter script..."
+    },
+    {
+      "id" : "7",
+      "title": "HTML presentation handler",
+      "projectRepoURL": "",
+      "Date": "Novemeber 2021",
+      "points": [
+        "Team work skills practice", "Linux command line usage"
+      ],
+      "technologies": [
+        "6","5"
+      ],
+      "photo":"",
+      "description":"I strated this little project with given documents : storyboard, audio, pdf. The main goal was to create a bash script that use these documents and generate with it a static html pages."
+    },
+    {
+      "id" : "2",
+      "title": "Lowatem",
+      "projectRepoURL": "",
+      "Date": "Novemeber 2021",
+      "points": [
+        "Read and understand an existing code", "Algoritm", "Upgrade an existing code", "Unit tests"
+      ],
+      "technologies": [
+        "4"
+      ],
+      "photo":"",
+      "description":"Lowatem is a war board game. With Lowatem project, I understood better POO and improved my programming skills in Java. I wrote unit tests, I learned to be more familiar with an existing code. The goal of this project was to implement rules of Lowatem "
+    },
+    {
+      "id" : "1",
+      "title": "Pong",
+      "projectRepoURL": "/",
+      "Date": "October 2021",
+      "points": [
+        "Algorithm", "Comment a code", "OOP understanding", "Graphic elements disposition"
+      ],
+      "technologies": [
+        "4"
+      ],
+      "photo":"",
+      "description":"Pong is a reproduction of the famous arcade implemented with Processing. Pong was one of my first experiences with POO. I disposed graphic elements on the sreen"
+    }
+  ]
+}

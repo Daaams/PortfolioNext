@@ -1,11 +1,14 @@
-.link{
-    border-bottom: 2px solid white;
+
+.linkBlack{
+    color: black;
+    border-bottom: 2px solid black;
     transition-property: color border-bottom;
     transition: ease-in-out;
     transition-duration: 200ms;
 }
 
-.link:hover{
-    color: rgb(13, 158, 225);
-    border-bottom: 2px solid rgb(13, 158, 225);
+
+.linkBlack:hover{
+    color: #65AFFF;
+    border-bottom: 2px solid #65AFFF;
 }

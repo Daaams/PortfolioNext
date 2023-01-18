@@ -1,0 +1,52 @@
+{
+    "technos": [
+        {
+            "id": "1",
+            "title": "Python",
+            "imageURL": "/python.png",
+            "URL": "https://www.python.org/"
+        },
+        {
+            "id": "2",
+            "title": "c#",
+            "imageURL": "/Csharp.png",
+            "URL": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+        },
+        {
+            "id": "3",
+            "title": "SQL",
+            "imageURL": "/dataBase.png",
+            "URL": "https://www.microsoft.com/en-us/sql-server/"
+        },
+        {
+            "id": "4",
+            "title": "Java",
+            "imageURL": "/java.png",
+            "URL": "https://www.java.com/en/"
+        },
+        {
+            "id": "5",
+            "title": "Web",
+            "imageURL": "/web.png",
+            "URL": "https://developer.mozilla.org/en-US/"
+        },
+        {
+            "id": "6",
+            "title": "Shell",
+            "imageURL": "/shell.png",
+            "URL": "https://doc.ubuntu-fr.org/bash"
+        },
+        {
+            "id": "7",
+            "title" : "NextJs",
+            "imageURL" : "/Next.js.png",
+            "URL" : "https://nextjs.org/"
+        },
+        {
+            "id": "8",
+            "title" : "Visual Basic",
+            "imageURL" : "/VBNET.png",
+            "URL" : "https://nextjs.org/"
+        }
+    ]
+}
