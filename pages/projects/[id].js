@@ -66,7 +66,7 @@ export default function ProjectFromId( {idProjet} ) {
                         <figure className="mr-8">
                             <Image src={project.photo} width={1500} height={1100} alt={project.title.concat(" image project")} />
                         </figure>
-                        <div className="bg-[#2541B2] p-9 rounded-xl">
+                        <div className="bg-[#2541B2] p-9 rounded-xl w-full">
                             <p className="md:text-2xl mb-4 text-white">Description :</p>
                             <p className="text-sm md:text-xl mb-[5%] p-4 rounded-lg bg-[#65AFFF] text-white">{project.description}</p>
                             <div >
