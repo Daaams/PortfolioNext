@@ -60,7 +60,7 @@
       "id" : "14",
       "title": "Little RSA",
       "projectRepoURL": "https://github.com/Daaams/Mini-RSA",
-      "Date": "Novemeber 2022",
+      "Date": "November 2022",
       "points": [
         "Team work skills practice", "OOP", "Algorithm","Cryptography understanding"
       ],
@@ -193,14 +193,14 @@
       "technologies": [
         "3", "SQL Server", "Win'Design"
       ],
-      "photo":"",
+      "photo":"/projects/BDprojectCreation.png",
       "description":"I analised the subject of the project then I reproduce the database creation process. I used all knowledges I have learned during the semester 1 : MCD, MLD, filter script..."
     },
     {
       "id" : "7",
       "title": "HTML presentation handler",
       "projectRepoURL": "",
-      "Date": "Novemeber 2021",
+      "Date": "November 2021",
       "points": [
         "Team work skills practice", "Linux command line usage"
       ],
@@ -214,7 +214,7 @@
       "id" : "2",
       "title": "Lowatem",
       "projectRepoURL": "",
-      "Date": "Novemeber 2021",
+      "Date": "November 2021",
       "points": [
         "Read and understand an existing code", "Algoritm", "Upgrade an existing code", "Unit tests"
       ],
