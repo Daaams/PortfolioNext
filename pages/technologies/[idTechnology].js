@@ -3,7 +3,6 @@ import technologies from './technologies.json'
 
 import linkstyle from '../../styles/linksStyle.module.css'
 
-import { useRouter } from "next/router"
 import Link from 'next/link';
 
 
@@ -21,31 +20,26 @@ export function getStaticPaths() {
     };
   }
 
-  
 export function getStaticProps(context) {
 
     const id = context.params.idTechnology;
 
     return {
         props: {
-            idTechno : id
+            techno : technologies.technos[id-1]
         }
     }
   }
 
-export default function ProjectsFromTechno( {idTechno} ) {
+export default function ProjectsFromTechno( {techno} ) {
     const path = "/projects/"
 
     return (
-
         <div className='pt-[20%] md:pt-[15%]'>
-            {technologies.technos.map((techno, i) => (
-                techno.id == idTechno &&
-                <h1 className='text-3xl md:text-6xl text-[#2541B2] ml-10 mb-20' key={i}>Here are my projects that use {techno.title} technology </h1>
-            ))}
+            <h1 className='text-3xl md:text-6xl text-[#2541B2] ml-10 mb-20'>Here are my projects that use {techno.title} technology </h1>  
             <div className="bg-[#2541B2] rounded-xl p-6 m-10">
                 {projects.projects.map((project, i) => (
-                    project.technologies.includes(idTechno) &&
+                    project.technologies.includes(techno.id) &&
                         <Link
                             href="/projects/[id]"
                             as={path.concat(project.id)}
@@ -63,8 +57,8 @@ export default function ProjectsFromTechno( {idTechno} ) {
             </div>
 
             <div className='m-[10%] md:m-[5%] text-right text-3xl'>
-                <Link href="/">
-                    <a className={linkstyle.linkBlack} onClick={() => router.back()}>Back</a>
+                <Link href="/#technos">
+                    <a className={linkstyle.linkBlack}>Back to technologies</a>
                 </Link>
             </div>
         </div>
