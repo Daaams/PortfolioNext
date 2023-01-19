@@ -24,7 +24,7 @@ function Technologies() {
                                 </figure>
                                 <br></br>
                                 <Link
-                                    href="/technologies/[technology]"
+                                    href="/technologies/[idTechnology]"
                                     as={path.concat(i+1)}
                                 >
                                     <a className={stylesLink.linkBlack}>Projects</a>
