@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Script from 'next/script'
 
 function Navbar() {
 
@@ -42,7 +43,7 @@ function Navbar() {
           </div>
         </div>
       </nav>
-      <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+      <Script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js" />
     </>
 
   );
