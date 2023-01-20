@@ -103,7 +103,7 @@ export default function ProjectFromId( {projectId} ) {
                                 {project.projectRepoURL != "" && 
 
                                 <p className="mt-[5%] lg:text-2xl text-white"> Project repository : 
-                                <Link href={project.projectRepoURL}><a className="lg:bg-transparent lg:p-0 border-b border-b-white ease-in-out duration-200 hover:text-[#65AFFF] hover:border-b-[#65AFFF] lg:text-2xl ml-5" aria-current="page">{project.projectRepoURL}</a></Link>
+                                <Link href={project.projectRepoURL}><a target="_blank" className="lg:bg-transparent lg:p-0 border-b border-b-white ease-in-out duration-200 hover:text-[#65AFFF] hover:border-b-[#65AFFF] lg:text-2xl ml-5" aria-current="page">{project.projectRepoURL}</a></Link>
                                 </p>
                                 }
                                 {

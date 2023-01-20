@@ -24,10 +24,10 @@ export default function Home() {
             </p>
             <div className="w-full mb:w-1/2 m-auto flex justify-around">
                 <Link href='https://github.com/Daaams'>
-                    <a className=" underline flex flex-col items-center transition-colors ease-in-out duration-200 hover:text-[#65AFFF] hover:border-b-[#65AFFF] lg:text-2xl"><IconBrandGithub></IconBrandGithub>Github</a>
+                    <a target="_blank" className=" underline flex flex-col items-center transition-colors ease-in-out duration-200 hover:text-[#65AFFF] hover:border-b-[#65AFFF] lg:text-2xl"><IconBrandGithub></IconBrandGithub>Github</a>
                 </Link>
                 <Link href='https://www.linkedin.com/in/damien-levrault-7705a6234/'>
-                    <a className="underline flex flex-col items-center transition-colors ease-in-out duration-200 hover:text-[#65AFFF] hover:border-b-[#65AFFF] lg:text-2xl"><IconBrandLinkedin></IconBrandLinkedin>LinkedIn</a>
+                    <a target="_blank" className="underline flex flex-col items-center transition-colors ease-in-out duration-200 hover:text-[#65AFFF] hover:border-b-[#65AFFF] lg:text-2xl"><IconBrandLinkedin></IconBrandLinkedin>LinkedIn</a>
                 </Link>
             </div>  
           </div>

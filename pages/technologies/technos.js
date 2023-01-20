@@ -31,7 +31,7 @@ function Technologies() {
                                 </Link>
                                 <br></br>
                                 <Link href={techno.URL}>
-                                    <a className={stylesLink.linkBlack} >See documentation</a>
+                                    <a target="_blank" className={stylesLink.linkBlack} >See documentation</a>
                                 </Link>
                             </article>
                         )

@@ -9,12 +9,12 @@ function Footer() {
             </div>
             <div>
                 <Link href='https://github.com/Daaams'>
-                    <a className=" w-[20%] underline flex flex-col items-center transition-colors ease-in-out duration-200 hover:text-[#65AFFF] hover:border-b-[#65AFFF] lg:text-2xl"><IconBrandGithub></IconBrandGithub><p className='underline'>Github</p></a>
+                    <a target="_blank" className=" w-[20%] underline flex flex-col items-center transition-colors ease-in-out duration-200 hover:text-[#65AFFF] hover:border-b-[#65AFFF] lg:text-2xl"><IconBrandGithub></IconBrandGithub><p className='underline'>Github</p></a>
                 </Link>
             </div>
             <div>
                 <Link href='https://www.linkedin.com/in/damien-levrault-7705a6234/'>
-                    <a className="w-[20%] underline flex flex-col items-center transition-colors ease-in-out duration-200 hover:text-[#65AFFF] hover:border-b-[#65AFFF] lg:text-2xl"><IconBrandLinkedin></IconBrandLinkedin><p className='underline'>LinkedIn</p></a>
+                    <a target="_blank" className="w-[20%] underline flex flex-col items-center transition-colors ease-in-out duration-200 hover:text-[#65AFFF] hover:border-b-[#65AFFF] lg:text-2xl"><IconBrandLinkedin></IconBrandLinkedin><p className='underline'>LinkedIn</p></a>
                 </Link>
             </div>
             <div className='lg:text-2xl w-[20%]'>
