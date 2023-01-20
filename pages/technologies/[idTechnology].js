@@ -35,8 +35,8 @@ export default function ProjectsFromTechno( {techno} ) {
     const path = "/projects/"
 
     return (
-        <div className='pt-[20%] md:pt-[15%]'>
-            <h1 className='text-3xl md:text-6xl text-[#2541B2] ml-10 mb-20'>Here are my projects that use {techno.title} technology </h1>  
+        <div className='pt-[20%] lg:pt-[15%]'>
+            <h1 className='text-3xl lg:text-6xl text-[#2541B2] ml-10 mb-20'>Here are my projects that use {techno.title} technology </h1>  
             <div className="bg-[#2541B2] rounded-xl p-6 m-10">
                 {projects.projects.map((project, i) => (
                     project.technologies.includes(techno.id) &&
@@ -45,7 +45,7 @@ export default function ProjectsFromTechno( {techno} ) {
                             as={path.concat(project.id)}
                             key={i}
                         >  
-                            <a className="bg-white rounded-lg block px-1 py-4 md:px-4 mx-[5%] my-3 hover:transition-all ease-in-out duration-500  hover:text-xl md:text-2xl md:hover:text-5xl hover:text-[#65AFFF] hover:font-bold" >
+                            <a className="bg-white rounded-lg block px-1 py-4 lg:px-4 mx-[5%] my-3 hover:transition-all ease-in-out duration-500  hover:text-xl lg:text-2xl lg:hover:text-5xl hover:text-[#65AFFF] hover:font-bold" >
                                 <div className="flex justify-between">
                                     <h3 className='w-[40%]'>{project.title}</h3>
                                     <h3 className='w-[60%] text-right'>{project.Date}</h3>
@@ -56,7 +56,7 @@ export default function ProjectsFromTechno( {techno} ) {
                 }
             </div>
 
-            <div className='m-[10%] md:m-[5%] text-right text-3xl'>
+            <div className='m-[10%] lg:m-[5%] text-right text-xl lg:text-3xl'>
                 <Link href="/#technos">
                     <a className={linkstyle.linkBlack}>Back to technologies</a>
                 </Link>

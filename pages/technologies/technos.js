@@ -9,9 +9,9 @@ function Technologies() {
     const path = "/technologies/"
     return (
         <div>
-            <section id='technos' className="md:px-24" >
-                <h1 className='text-3xl md:text-6xl text-[#2541B2] ml-10 '>Technologies</h1>
-                <h2 className='mt-3 mx-5 md:text-2xl'>
+            <section id='technos' className="lg:px-24" >
+                <h1 className='text-3xl lg:text-6xl text-[#2541B2] ml-10 '>Technologies</h1>
+                <h2 className='mt-3 mx-5 lg:text-2xl'>
                     Here are technologies I am used to work with !
                 </h2>
                 <div className="flex flex-wrap justify-around">
