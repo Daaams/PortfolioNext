@@ -20,7 +20,7 @@ export default function Home() {
               I&apos;m Damien
             </p>
             <p className="text-lg lg:text-4xl mb-6 text-[#65AFFF]">
-              I am a French IT student interseted in Web and Mobile applications.
+              I am a French IT student intersted in Web and Mobile applications.
             </p>
             <div className="w-full mb:w-1/2 m-auto flex justify-around">
                 <Link href='https://github.com/Daaams'>
